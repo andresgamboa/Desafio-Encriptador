@@ -4,35 +4,37 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
+    overflow-y: hidden;
 }
 
 .logo{
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 10px;
     width: 10%;
 }
 
 main{
     display: flex;  /* me permite tener las cajas flexibles */
-    margin-top: 10px;
-    margin-left: 80px;
-    margin-bottom: 50px;
+    margin-left: 180px;
+    margin-bottom: 10px;
 }
 
 .text-area{
+    height: 400px;
     resize: none;
     border: none;  /* sin bordes */
     text-transform: lowercase;  /* convierte todo el texto a minuscula */
     color: #0A3871;
-    margin-top: 90px;
+    margin-top: 30px;
+    padding: 2px;
 }
 
 ::placeholder{
     color: #0A3871;
 }
-.text-area:focus{
+    .text-area:focus{
     outline: none;
-}
+    }
 
 
 .informacion{
@@ -69,16 +71,19 @@ main{
 }
 
 .mensaje{
+    height: 630px;
+    width: 400px;
     resize: none;
     border: none;
     background: white;
     border-radius: 24px;
     background-image: url(Imagenes/corporal);
     background-repeat: no-repeat;
+    background-position: center;
     margin-top: 20px;
     margin-left: 98px;
-    padding-left: 20px;
     position: fixed;
+    padding: 1em;
 
 }
 
@@ -93,8 +98,7 @@ main{
     color: #0A3871;
     height: 67px;
     width: 335px;
-    margin-top: 400px;
-    margin-left: 100px;
+    margin-top: 580px;
+    margin-left: 170px;
     position: absolute;
-
 }
