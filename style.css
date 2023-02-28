@@ -79,7 +79,7 @@ main{
     border-radius: 24px;
     background-image: url(Imagenes/corporal);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 25%;
     margin-top: 20px;
     margin-left: 98px;
     position: fixed;
@@ -91,6 +91,14 @@ main{
     outline: none;
 }
 
+/* .informacion-mensaje{
+    position: absolute;
+    background: none;
+    font-size: 20px;
+    color: #0A3871;
+    margin-top: 50px;
+}
+ */
 .copiar{
     border: 1px solid #0A3871;
     border-radius: 24px;
@@ -101,4 +109,129 @@ main{
     margin-top: 550px;
     margin-left: 170px;
     position: absolute;
+}
+
+@media screen and (max-width:768px){
+
+    .logo{
+        margin-top: 5px;
+        margin-left: auto;
+    }
+
+    main{
+        display: block;
+        margin-left: 10px;
+        margin-bottom: 2em;
+    }
+
+    .text-area{
+        height: 450px;
+        width: 660px;
+        margin-top: 10px;
+        padding: 1em;
+        font-size: 25px;
+    }
+
+    .botones{
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .mensaje{
+        background-image: none;
+        height: 200px;
+        width: 660px;
+        border-radius: 32px;
+        margin-left: 5px;
+        overflow-y: auto;
+    }
+
+    .btn-desencriptar{
+        width: 330px;
+        font-size: 15px;
+        background: #F3F5FC;
+        margin-right: 15px;
+        font-weight: bold;
+    }
+
+    .btn-encriptar{
+        width: 330px;
+        font-size: 15px;
+        margin-left: 15px;
+        font-weight: bold;
+    }
+
+    .copiar{
+        background: white;
+        width: 44em;
+        font-size: 15px;
+        margin-top: 200px;
+        margin-left: 35px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:415px){
+
+    .logo{
+        width: 75px;
+        margin-left: auto;
+        margin-top: 5px;
+    }
+
+    main{
+        display: block;
+        margin-left: 10px;
+        margin-bottom: 2em;
+    }
+
+    .text-area{
+        height: 200px;
+        width: 320px;
+        margin-top: 5px;
+        padding: 1em;
+        font-size: 20px;
+        overflow-y: auto;
+    }
+
+    .botones{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .mensaje{
+        background-image: none;
+        height: 200px;
+        width: 300px;
+        border-radius: 32px;
+        margin-left: 5px;
+        overflow-y: auto;
+    }
+
+    .btn-desencriptar{
+        width: 330px;
+        font-size: 15px;
+        margin-left: 15px;
+        background: #F3F5FC;
+        font-weight: bold;
+    }
+
+    .btn-encriptar{
+        width: 330px;
+        font-size: 15px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+    .copiar{
+        background: white;
+        width: 20em;
+        font-size: 15px;
+        margin-top: 250px;
+        margin-left: 35px;
+        font-weight: bold;
+    }
 }
